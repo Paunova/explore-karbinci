@@ -1,13 +1,19 @@
-import About from './About';
-import Map from './Map';
-import Posts from './Posts';
 
-const Menu = () => {
+import MenuItem from './MenuItem';
+
+const Menu = (props) => {
+  const {menuItems, ...rest} = props;
+  
   return (
     <div className='menu'>
-        <Posts />
-        <Map />
-        <About />
+      {props.menuItems.map((item, index) => {
+        return (
+          <MenuItem key={index} 
+                    item={item}
+                    {...rest}
+          />
+        )
+      })}
     </div>
   );
 };

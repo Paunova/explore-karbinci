@@ -6,3 +6,9 @@
 body {
   margin-top: 20px;
 }
+
+.preview-item {
+  @include flexbox();
+  @include flex-direction();
+  @include justify-content(center);
+}

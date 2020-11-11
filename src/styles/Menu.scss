@@ -4,7 +4,11 @@
   @include justify-content(center);
 
   .menu-item {
-    font-size: 18px;
+    font-size: 40px;
     margin: 15px;
+  }
+
+  .menu-item--active {
+    color: #32CD32;
   }
 }

@@ -1,6 +1,6 @@
 :root {
     --line: transparent;
-    --line-active: #275EFE;
+    --line-active: #32CD32;
 }
 
 .link-hover {
@@ -19,8 +19,8 @@
     }
 
     svg {
-        width: 76px;
-        height: 40px;
+        width: 100px;
+        height: 60px;
         position: absolute;
         left: 50%;
         bottom: 0;
