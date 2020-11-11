@@ -1,0 +1,10 @@
+.menu {
+  @include flexbox();
+  @include flex-direction(row);
+  @include justify-content(center);
+
+  .menu-item {
+    font-size: 18px;
+    margin: 15px;
+  }
+}
